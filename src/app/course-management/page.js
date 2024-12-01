@@ -1,12 +1,12 @@
 'use client'
-import { Box, Typography } from '@mui/material';
+import { Grid2} from '@mui/material';
 
-export default function CourseManagement() {
-  return (
-    <Box sx={{ p: 3 }}>
-      <Typography variant="h4" component="h1" gutterBottom>
-        Course Management
-      </Typography>
-    </Box>
-  );
+const CourseManagement = () => {
+    return (
+        <Grid2>
+
+        </Grid2>
+    );
 }
+
+export default CourseManagement

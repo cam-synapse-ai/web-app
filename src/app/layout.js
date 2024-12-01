@@ -32,8 +32,8 @@ export default function RootLayout({ children }) {
             sx={{
               flexGrow: 1,
               p: 3,
-              ml: `${240}px`,
-              minHeight: '100vh'
+              minHeight: '100vh',
+              backgroundColor: "#fff"
             }}
           >
             {children}
