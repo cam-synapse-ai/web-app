@@ -78,7 +78,7 @@ const Playground = () => {
                                             fontStyle: "italic"
                                         }}
                                     >
-                                        You haven't added any files. Click on Upload Files to Start!
+                                        {"You haven't added any files. Click on Upload Files to Start!"}
                                     </Grid2>
                                 ) : (
                                     items.map((item) => (
